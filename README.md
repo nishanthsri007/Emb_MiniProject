@@ -20,5 +20,4 @@
 |:--:|:--:|:--:|
 |[![Compile-Linux](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml)
 
-## Wiki Documentation
-* System [SETUP](https://github.com/Bharathgopal/Emb-C/wiki)
+
