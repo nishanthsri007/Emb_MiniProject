@@ -1,8 +1,8 @@
-# Embedded C Programming Examples with Continuous Integration and Code Quality
+# Seat Temperature Controller
 
-# LED Blinking 
+## Simulation Output
 
-## In Action
+## LED ON and PWM Output at <20% duty cycle
 
 |ON|OFF|
 |:--:|:--:|
