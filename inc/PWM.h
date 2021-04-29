@@ -1,5 +1,5 @@
-#ifndef PWM_H_INCLUDED
-#define PWM_H_INCLUDED
+#ifndef __PWM_H__
+#define __PWM_H__
 
 /**
  * @brief Function to generate PWM output
