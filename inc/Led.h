@@ -1,5 +1,5 @@
-#ifndef LED_H_INCLUDED
-#define LED_H_INCLUDED
+#ifndef __LED_H__
+#define __LED_H__
 
 void ports_init(void);
 
