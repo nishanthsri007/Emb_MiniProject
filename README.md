@@ -14,10 +14,8 @@
 
 ![image](https://user-images.githubusercontent.com/56690808/116595558-11b56100-a941-11eb-998c-9f96185ed350.png)
 
-#### CI and Code Quality
+### CI and Code Quality
 
-|Build|Cppcheck
-|:--:|:--:|:--:|
-|[![Compile-Linux](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml)
+[![Compile-Linux](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/Compile.yml)[![Cppcheck](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml/badge.svg)](https://github.com/nishanthsri007/Emb_MiniProject/actions/workflows/CodeQulaity.yml)
 
 
