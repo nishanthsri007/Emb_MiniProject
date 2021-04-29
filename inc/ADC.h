@@ -1,5 +1,5 @@
-#ifndef ADC_H_INCLUDED
-#define ADC_H_INCLUDED
+#ifndef __ADC_H__
+#define __ADC_H__
 
 void InitADC(void);
 
