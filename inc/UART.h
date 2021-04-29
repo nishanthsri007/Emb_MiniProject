@@ -1,5 +1,5 @@
-#ifndef UART_H_INCLUDED
-#define UART_H_INCLUDED
+#ifndef __UART_H__
+#define __UART_H__
 
 void USARTInit(void);
 
