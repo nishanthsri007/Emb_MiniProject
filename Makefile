@@ -1,10 +1,10 @@
-PROJ_NAME = Blinky
+PROJ_NAME = Seat_Heat_Controller
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = project_main.c\
-src/user_utils.c
+src/*.c
 
 # All header file paths
 INC = -I inc
