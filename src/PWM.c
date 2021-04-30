@@ -3,7 +3,7 @@
 
 uint8_t PWM(uint16_t adc_value)
 {
-    DDRB |= (1 << PB1);  ///<Set PB1 bit in DDRB to make it as output pin
+    DDRB |= (1 << PB1);  ///<Set PB1 bit in DDRB
 
     
     TCCR1A |= (1 << COM1A1) | (1 << WGM11) | (1 << WGM10);
