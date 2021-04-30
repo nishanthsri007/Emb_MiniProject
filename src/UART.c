@@ -9,7 +9,7 @@ void USARTInit(void)
     UBRR0H |= (BAUDRATE >> 8);
     UBRR0L |= BAUDRATE;
 
-    ///Set character size to 8 bits
+    ///Set character size to 8 bit
     UCSR0C = (1 << UCSZ01) | (1 << UCSZ00);
 
     UCSR0B = (1 << RXEN0) | (1 << TXEN0) | (1 << RXCIE0) | (1 << TXCIE0);
