@@ -12,25 +12,25 @@ uint8_t PWM(uint16_t adc_value)
 
     if(adc_value >= 0 && adc_value <= 200)
     {
-        OCR1A = 204;   ///<20% dutycycle
+        OCR1A = 200;   ///<20% dutycycle
         temp = 20;
         _delay_ms(200);
     }
     else if(adc_value >= 210 && adc_value <= 500)
     {
-        OCR1A = 410;   ///<40% dutycycle
+        OCR1A = 400;   ///<40% dutycycle
         temp = 25;
         _delay_ms(200);
     }
     else if(adc_value >= 510 && adc_value <= 700)
     {
-        OCR1A = 717;   ///<70% dutycycle
+        OCR1A = 700;   ///<70% dutycycle
         temp = 29;
         _delay_ms(200);
     }
     else if(adc_value >= 710 && adc_value <= 1024)
     {
-        OCR1A = 973;   ///<95% dutycycle
+        OCR1A = 900;   ///<95% dutycycle
         temp = 33;
         _delay_ms(200);
     }
