@@ -4,7 +4,7 @@
 void USARTInit(void);
 
 /**
- * @brief Function to read character from the serial input buffer
+ * @brief Function to read character from serial input buffer
  *
  * @return char 8 bit character read from  serial communication
  */
