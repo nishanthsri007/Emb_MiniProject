@@ -7,7 +7,7 @@ volatile unsigned Switch_Status = 0;
 void Led_Actuator(void)
 {
     sei();
-    DDRB |= (1 << PB0);                      ///<Set B0 bit in DDRB register(to make it as output)
+    DDRB |= (1 << PB0);                      ///<Set B0 bit in DDRB register
 
     DDRD &= ~(1 << PD0);                     ///<Clear D0 bit in DDRD register
     DDRC &= ~(1 << PC5);                     ///<Clear C5 bit in DDRD register
