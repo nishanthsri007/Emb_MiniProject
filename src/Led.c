@@ -4,7 +4,7 @@
 volatile unsigned Seat_Status = 0;
 volatile unsigned Switch_Status = 0;
 
-void ports_init(void)
+void Led_Actuator(void)
 {
     sei();
     DDRB |= (1 << PB0); ///<Set B0 bit in DDRB register(to make it as output)
