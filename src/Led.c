@@ -20,10 +20,10 @@ void ports_init(void)
 
 }
 
-///ISR for state change in pin C6
+///ISR for state change in pin C5
 ISR(PCINT1_vect)
 {
-    ///Check if PC6 is high
+    ///Check if PC5 is high
     if(!(PINC & (1 << PINC5)))
         Seat_Status = 1;  ///<Set variable
     else
