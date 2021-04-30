@@ -27,18 +27,17 @@ int main()
         else
         {
             PORTB &= ~(1 << PB0);
-            LED = 0;
         }
 
         if(LED == 1)
         {
-            temp = PWM(Read_ADC(0));  ///<Read ADC input and generate appropriate PWM output
+            temp = PWM(Read_ADC(0));          ///<Read ADC input and generate appropriate PWM output
             USARTWriteChar(temp);            ///<Write temperature value to serial monitor
             _delay_ms(200);
         }
         else
         {
-            PWM(2000);               ///<Function call to produce 0 PWM output
+            PWM(2000);               ///<Function call for no PWM output
         }
     }
     return 0;
