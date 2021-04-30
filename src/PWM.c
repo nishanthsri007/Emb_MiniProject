@@ -5,7 +5,7 @@ uint8_t PWM(uint16_t adc_value)
 {
     DDRB |= (1 << PB1);  ///<Set PB1 bit in DDRB to make it as output pin
 
-    ///Non inverting mode - Fast PWM with 10 bits for resolution of 1024
+    
     TCCR1A |= (1 << COM1A1) | (1 << WGM11) | (1 << WGM10);
     TCCR1B |= (1 << CS11) | (1 << CS10);
     uint8_t temp = 0;
