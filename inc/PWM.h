@@ -7,7 +7,7 @@
  * @param ADC_value Output digital value from ADC
  * @return uint8_t Returns the temperature value in decimal corresponding to the PWM output
  */
-uint8_t PWM_output(uint16_t ADC_value);
+uint8_t PWM(uint16_t adc_value);
 
 
 #endif // PWM_H_INCLUDED
