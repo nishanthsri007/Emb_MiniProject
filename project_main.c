@@ -27,6 +27,7 @@ int main()
         else
         {
             PORTB &= ~(1 << PB0);
+		LED = 0;
         }
 
         if(LED == 1)
