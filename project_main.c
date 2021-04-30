@@ -32,13 +32,13 @@ int main()
 
         if(LED == 1)
         {
-            temp = PWM_output(Read_ADC(0));  ///<Read ADC input and generate appropriate PWM output
+            temp = PWM(Read_ADC(0));  ///<Read ADC input and generate appropriate PWM output
             USARTWriteChar(temp);            ///<Write temperature value to serial monitor
             _delay_ms(200);
         }
         else
         {
-            PWM_output(2000);               ///<Function call to produce 0 PWM output
+            PWM(2000);               ///<Function call to produce 0 PWM output
         }
     }
     return 0;
