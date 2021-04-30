@@ -10,7 +10,7 @@ void InitADC(void)
 
 uint16_t Read_ADC(uint8_t ch)
 {
-    ch &= 0b00000111;                                      ///<Taking the last 3 bits from received parameter
+    ch &= 0b00000111;                                      ///<Taking the last 3 bits from the received parameter
     ADMUX |= ch;                                           ///<Selecting the input channel
     ADCSRA |= (1 << ADSC);                                 ///<Starting ADC conversion
     while(!(ADCSRA & (1 << ADIF)));                        ///<Waiting for the end of conversion
