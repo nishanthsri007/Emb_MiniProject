@@ -17,4 +17,4 @@ char USARTReadChar(void);
  */
 void USARTWriteChar(char value);
 
-#endif // UART_H_INCLUDED
+#endif 
