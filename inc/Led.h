@@ -1,7 +1,7 @@
 #ifndef __LED_H__
 #define __LED_H__
 
-void ports_init(void);
+void Led_Actuator(void);
 
 ///Variable to indicate the seat occupancy
 volatile unsigned Seat_Status;
