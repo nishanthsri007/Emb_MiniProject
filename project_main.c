@@ -15,7 +15,7 @@ int main()
 
     ///Calling initializing functions
 	InitADC();
-    ports_init();
+        Led_Actuator();
 
     while(1)
     {
