@@ -15,6 +15,6 @@ char USARTReadChar(void);
  *
  * @param data 8 bit data to be written to the serial output buffer
  */
-void USARTWriteChar(char data);
+void USARTWriteChar(char value);
 
 #endif // UART_H_INCLUDED
